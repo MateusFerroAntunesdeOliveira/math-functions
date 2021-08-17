@@ -11,9 +11,10 @@ int fatorial (int n) {
 int main() {
     int num_fat;
 
+    cout << "\n --- CALCULO FATORIAL --- \n" << endl;
     cout << "\nDigite um numero e calcularei o seu fatorial: "; 
     cin >> num_fat;
-    
+
     int res = fatorial(num_fat);
     
     cout << "Fatorial de " << num_fat << " = " << res << "\n" << endl;

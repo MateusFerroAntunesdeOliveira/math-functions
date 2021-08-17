@@ -17,6 +17,13 @@ void hanoi(int N, char torre_orig, char torre_dest, char torre_aux) {
 }
 
 int main() {
-    hanoi(3,'A','C','B');
+    int num_discos;
+    
+    cout << "\n --- TORRE DE HANOI --- \n" << endl;
+    cout << "Quantos discos tem o jogo: ";
+    cin >> num_discos;
+    cout << "Resposta abaixo: " << "\n" << endl;
+
+    hanoi(num_discos,'A','C','B');
     return 0;
 }
