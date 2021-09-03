@@ -2,8 +2,6 @@
 #include <conio.h>
 #include <stdlib.h>
 
-//-> teste
-
 int main ()
 {
     //-> Variaveis
